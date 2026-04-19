@@ -1,4 +1,19 @@
 {
+  curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent" \
+  -H 'Content-Type: application/json' \
+  -H 'X-goog-api-key: AIzaSyBkgavEMnMOlBqt9jGhni4UNYv891cm7hI' \
+  -X POST \
+  -d '{
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Explain how AI works in a few words"
+          }
+        ]
+      }
+    ]
+  }'
   "compilerOptions": {
     "target": "ES2022",
     "experimentalDecorators": true,
