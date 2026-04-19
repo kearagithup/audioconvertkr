@@ -1,0 +1,6 @@
+{
+  "name": "Audio to IRC Converter",
+  "description": "Convert audio files into timestamped .irc (LRC) lyric files with 5-6 word segmentation using Gemini Flash.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
